@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom Gauge */
+.gauge-font {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #333;
+}
+
+/* input[type=date] picker icon hidden */
+::-webkit-calendar-picker-indicator {
+  width: 100%;
+}
+
+/* Custom Datepicker */
+.dateStyle fieldset {
+  border: none !important;
+}
+
+/* Custom BarChart */
+.apexcharts-legend-series {
+  display: none;
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+/* Align */
+.align-items-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.align-items-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Font Size */
+.font-16 {
+  font-size: 1rem !important;
+}
+
+.font-18 {
+  font-size: 1.125rem !important;
+}
+
+/* Margin */
+.my-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.text-decoration-red {
+  text-decoration-color: #EB5757;
+}
+
+.text-decoration-gray {
+  text-decoration-color: #828282;
+}
+
+.text-decoration-black {
+  text-decoration-color: #000 !important;
+}
+
+/* Date range picker toggle arrow hidden */
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+  display: none;
+}
+
+.react-datepicker__input-container input {
+  width: 90%;
+}
